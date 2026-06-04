@@ -31,6 +31,7 @@ resource "aws_security_group" "ebilling-ec2-ssh-security-group" {
     Scenario  = "${var.scenario-name}"
     yor_name  = "ebilling-ec2-ssh-security-group"
     yor_trace = "57f545ad-8b08-47f2-8211-d5f6728ada26"
+    git_org   = "paliguoqing"
   }
 }
 
@@ -69,5 +70,6 @@ resource "aws_security_group" "ebilling-ec2-http-security-group" {
     Scenario  = "${var.scenario-name}"
     yor_name  = "ebilling-ec2-http-security-group"
     yor_trace = "542475b3-763e-4139-87a9-61dc6ea0b2b3"
+    git_org   = "paliguoqing"
   }
 }

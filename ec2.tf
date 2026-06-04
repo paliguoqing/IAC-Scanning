@@ -22,6 +22,7 @@ EOF
     Scenario  = "${var.scenario-name}"
     yor_name  = "ebilling-ec2-role"
     yor_trace = "bde8208b-e168-4cad-8f95-d619f0dcaf6d"
+    git_org   = "paliguoqing"
   }
 }
 
@@ -86,6 +87,7 @@ POLICY
   tags = {
     yor_name  = "ebilling-ec2-role-policy"
     yor_trace = "2013cf28-12ea-4f89-8cb5-3337057ff576"
+    git_org   = "paliguoqing"
   }
 }
 
@@ -201,6 +203,7 @@ resource "aws_iam_policy" "s3_ap_policy" {
   tags = {
     yor_name  = "s3_ap_policy"
     yor_trace = "59b478b6-4f4e-432c-b9b1-57b57ce1bbf2"
+    git_org   = "paliguoqing"
   }
 }
 
@@ -230,6 +233,7 @@ resource "aws_iam_instance_profile" "ebilling-ec2-instance-profile" {
   tags = {
     yor_name  = "ebilling-ec2-instance-profile"
     yor_trace = "6e583ff4-1fb9-43f0-ae60-81b9f0911244"
+    git_org   = "paliguoqing"
   }
 }
 
@@ -240,6 +244,7 @@ resource "aws_key_pair" "ebilling-ec2-key-pair" {
   tags = {
     yor_name  = "ebilling-ec2-key-pair"
     yor_trace = "856cebfb-e1fa-47b3-8dc2-3cce077a9e3b"
+    git_org   = "paliguoqing"
   }
 }
 
@@ -314,6 +319,7 @@ resource "aws_instance" "ebilling-ubuntu-ec2" {
     Scenario  = "${var.scenario-name}"
     yor_name  = "ebilling-ubuntu-ec2"
     yor_trace = "c06ce5d2-bcf0-4271-91ff-1b310ee97331"
+    git_org   = "paliguoqing"
   }
 }
 

@@ -13,6 +13,7 @@ resource "aws_s3_bucket" "pc-national-bank-bucket" {
   tags = {
     yor_name  = "pc-national-bank-bucket"
     yor_trace = "5bc9f854-a7d6-4c3e-afe8-f35056170177"
+    git_org   = "paliguoqing"
   }
 }
 
